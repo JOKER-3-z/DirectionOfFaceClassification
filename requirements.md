@@ -1,0 +1,4 @@
+Pytorch
+opencv
+dlib
+numpy
