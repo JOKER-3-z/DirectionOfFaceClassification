@@ -1,2 +1,2 @@
 # DirectionOfFaceClassification
-The Facial orientation recognition base on Pytorch,teststs
+The Facial orientation recognition base on Pytorch
