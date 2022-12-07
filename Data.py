@@ -19,6 +19,7 @@ def getface(imgpath):
         x2 = face.right()  # right x value
         # cv2.rectangle(img,(int(x1),int(y1)),(int(x2),int(y2)),(0,255,0),3) #添加面部框
         img = img[min(y1, y2):max(y1, y2), min(x1, x2):max(x1, x2), :]  # 裁切面部
+    #resize
     return img
 
 
