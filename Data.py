@@ -67,10 +67,10 @@ class cas_peal(object):
                 tru.append(label)
                 # 存到各个类别对应的文件夹下
                 member = file[3:9]
-                new_dir = "CAS_PEAL\\class" + str(label)
+                new_dir = "/content/CH_CAS_PEAL_POSE/class" + str(label)
                 mkdir(new_dir)
                 img = getface(self.File_path + "/" + file)
-                cv2.imwrite(new_dir + "\\" + member + ".jpg", img)
+                cv2.imwrite(new_dir + "/" + member + ".jpg", img)
 
 
 if __name__ == '__main__':
